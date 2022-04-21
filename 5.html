@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="nl" class="js js flexbox no-touch csstransitions video svg ng-scope" data-useragent="{user-agent}"
+    ng-app="app">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        @charset "UTF-8";
+
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+
+        ng\:form {
+            display: block;
+        }
+
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <style>
+        .full-m-con {
+            overflow: hidden;
+            margin-top: 40px;
+        }
+
+        .full-m-con .group {
+            margin-bottom: 20px;
+        }
+
+        .full-m-con .group:last-child {
+            margin-bottom: 0px;
+        }
+
+        .full-m-con .width-50 {
+            float: left;
+            width: 50%;
+        }
+
+        .full-m-con .width-30 {
+            float: left;
+            width: 35%;
+        }
+
+        .full-m-con .label {
+            font-size: 12px;
+            margin-bottom: 2px;
+
+        }
+
+        .full-m-con .value {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .p-form {
+            margin-top: 30px;
+            width: 300px;
+        }
+
+        @media (min-width:320px) and (max-width:576px) {
+            .p-form {
+
+                width: 100%;
+            }
+
+            .full-m-con .width-50 {
+                float: none;
+                width: 100%;
+            }
+
+        }
+    </style>
+    <style>
+        .vf-page-panel {
+            background-image: url("inloggen.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .full-m-con .width-50 {
+            float: left;
+            width: 50%;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+    </style>
+    <!-- End Google Tag Manager -->
+    <title>Waterbedrijf Vitens | Waterbedrijf Vitens</title>
+    <meta name="keywords" content="Vitens ISS; Mijn Vitens;">
+    <meta name="description" content="Vitens Homepage">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Waterbedrijf Vitens">
+    <meta name="twitter:description" content="Vitens Homepage">
+    <meta name="twitter:url" content="https://www.vitens.nl/">
+    <meta name="twitter:site" content="@vitens">
+    <meta property="og:title" content="Waterbedrijf Vitens">
+    <meta property="og:description" content="Vitens Homepage">
+    <meta property="og:url" content="https://www.vitens.nl/">
+    <meta property="og:site_name" content="www.vitens.nl">
+    <meta property="og:image" content="https://www.vitens.nl/-/media/images/vitens/logo-vitens.png">
+    <meta name="twitter:image" content="https://www.vitens.nl/-/media/images/vitens/logo-vitens.png">
+    <meta property="og:image:width" content="189">
+    <meta property="og:image:height" content="77">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon-precomposed"
+        href="https://www.vitens.nl/front-end/public/images/favicons/vitens/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://www.vitens.nl/front-end/public/images/favicons/vitens/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./public/combined.css">
+    <meta name="VIcurrentDateTime" content="637820422310861450">
+    <style></style>
+    <style data-styled="active" data-styled-version="5.3.0"></style>
+</head>
+
+<body>
+    <div id="progress-loader" class="progress-loader progress-loader-default"></div>
+    <div class="wrapper" ng-app="app">
+        <header class="header">
+            <div class="header__overflow-helper">
+                <div class="header__alignment-helper" style="">
+                    <div class="layout  layout--align-middle">
+                        <div class="layout__cell  layout__cell--fill">
+                            <div class="layout  layout--align-middle">
+                                <div class="layout__cell  layout__cell--fit">
+                                    <a href="#" class="navigation-toggle" data-palmnav-toggle="">
+                                        <i class="navigation-toggle__glyph" aria-hidden="true"></i>
+                                        <span class="navigation-toggle__text">menu</span>
+                                    </a>
+                                </div>
+                                <div class="layout__cell  layout__cell--fit">
+                                    <a href="#" class="logo">
+                                        <picture>
+                                            <source
+                                                srcset="https://www.vitens.nl/-/media/images/vitens/logovitensnoslogan.svg"
+                                                media="(min-width: 960px)">
+                                            <source
+                                                srcset="https://www.vitens.nl/-/media/images/vitens/logovitensnoslogan.svg">
+                                            <img src="./public/logovitensnoslogan.svg">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__cell  layout__cell--fit">
+                            <a href="#" class="navigation__mijn-omgeving">
+                                <svg width="18" height="25" viewBox="0 0 18 25" xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="currentColor">
+                                        <path
+                                            d="M17.8 16.382c0-1.932-1.553-3.34-3.472-3.34H3.49c-1.913 0-3.47 1.408-3.47 3.34L0 20.292v4.662h17.828v-4.662l-.03-3.91z">
+                                        </path>
+                                        <path
+                                            d="M14.118 5.872c0 7.828-10.942 7.828-10.942 0 0-7.83 10.942-7.83 10.942 0">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="#" class="search-toggle" data-search-toggle="idSearch">
+                                <span class="icon">
+                                    <i class="icon__glyph icon--search" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <div class="navigation-foldout__palm" data-navigation-foldout-palm="">
+                                <div class="navigation-foldout__palm__alignment-helper">
+                                    <ul class="navigation-primary">
+                                        <li>
+                                            <a href="#" class="is-active">Thuis</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="">Zakelijk</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="">Over Vitens</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="navigation-primary__my-link">
+                                                <span class="layout  layout--gutter-tiny  layout--align-middle">
+                                                    <span class="layout__cell  layout__cell--fit">
+                                                        <svg class="navigation-primary__my-icon" width="18" height="20"
+                                                            viewBox="0 0 18 25" xmlns="http://www.w3.org/2000/svg">
+                                                            <g fill="currentColor">
+                                                                <path
+                                                                    d="M17.8 16.382c0-1.932-1.553-3.34-3.472-3.34H3.49c-1.913 0-3.47 1.408-3.47 3.34L0 20.292v4.662h17.828v-4.662l-.03-3.91z">
+                                                                </path>
+                                                                <path
+                                                                    d="M14.118 5.872c0 7.828-10.942 7.828-10.942 0 0-7.83 10.942-7.83 10.942 0">
+                                                                </path>
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="layout__cell  layout__cell--fill"> Inloggen <span
+                                                            class="navigation-primary__highlight">Mijn Vitens</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="navigation-secondary js--navigation-lap__item">
+                                        <li data-navigation__item=""
+                                            data-navigation-id="{9B76F13D-BDD1-48A3-8FB2-6743C56890C6}">
+                                            <a href="#">Zelf regelen </a>
+                                        </li>
+                                        <li data-navigation__item=""
+                                            data-navigation-id="{B352DA9F-7539-4656-BDB4-EAE9C7118F72}">
+                                            <a href="#">Over water</a>
+                                        </li>
+                                        <li data-navigation__item=""
+                                            data-navigation-id="{785F4E26-6C56-4A53-826A-CF53354E5016}">
+                                            <a href="#">Werken bij Vitens</a>
+                                        </li>
+                                        <li data-navigation__item=""
+                                            data-navigation-id="{BDBF6A8C-17CE-42E7-AAAB-8E2A858F08B2}">
+                                            <a href="#" target="_blank" title="Storing en onderhoud">Storing
+                                                enonderhoud</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="navigation-foldout__palm__content ">
+                                    <div class="grid">
+                                        <div class="grid__cell  u-1-1 ">
+                                            <div class="rte">
+                                                <h2 class="">Een waterstoring doorgeven?</h2>
+                                                <a href="#" class="lettergrootte-h2">0800 0359</a>
+                                                <br> 24 uur per dag beschikbaar <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-foldout__lap js--navigation-lap__content" data-navigation__content=""
+                data-navigation-id="{9B76F13D-BDD1-48A3-8FB2-6743C56890C6}">
+                <div class="layer layer--medium layer--main-blue">
+                    <div class="navigation-foldout__lap__retain">
+                        <div class="grid grid--wide">
+                            <div class="grid__cell  u-1-1 u-6-12--lap u-4-12--desk">
+                                <div class="rte">
+                                    <h2 class="beta">Een waterstoring doorgeven?</h2>
+                                    <a href="#" class="lettergrootte-h2">0800 0359</a>
+                                    <br> 24 uur per dag beschikbaar <br>
+                                </div>
+                            </div>
+                            <div class="grid__cell  u-1-1  u-6-12--lap u-4-12--desk">
+                                <h3 class="delta">Zelf regelen</h3>
+                                <ul class="list--reset list--link-arrow">
+                                    <li>
+                                        <a href="#" class="">Direct regelen</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Verhuizing doorgeven</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Meterstand doorgeven</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="" target="_blank">Afspraak wijzigen meterverwisseling</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Afspraak wijzigen controle drinkwaterinstallatie</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Aansluiting aanvragen</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Veelgestelde vragen</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-foldout__lap js--navigation-lap__content" data-navigation__content=""
+                data-navigation-id="{B352DA9F-7539-4656-BDB4-EAE9C7118F72}">
+                <div class="layer layer--medium layer--main-blue">
+                    <div class="navigation-foldout__lap__retain">
+                        <div class="grid grid--wide">
+                            <div class="grid__cell  u-1-1 u-6-12--lap u-4-12--desk">
+                                <div class="rte">
+                                    <h2 class="">Een waterstoring doorgeven?</h2>
+                                    <a href="#" class="lettergrootte-h2">0800 0359</a>
+                                    <br> 24 uur per dag beschikbaar <br>
+                                </div>
+                            </div>
+                            <div class="grid__cell  u-1-1  u-6-12--lap u-4-12--desk">
+                                <h3 class="delta">
+                                    <a href="#" title="Over water">Over water</a>
+                                </h3>
+                                <ul class="list--reset list--link-arrow">
+                                    <li>
+                                        <a href="#" class="">Over water</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Natuurlijke bron</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Water maken</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Waterkwaliteit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Waterkwantiteit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Samenwerkingspartners</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="">Projecten</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="grid__cell u-1-1 u-6-12--lap u-4-12--desk ng-scope"
+                                ng-controller="WaterkwaliteitController as WaterkwaliteitCtrl">
+                                <h3 class="delta" data-equalheight="">Waterkwaliteit</h3>
+                                <form method="GET" id="waterkwaliteitpostcodezoekbox" action="#" name="waterkwaliteit"
+                                    autocomplete="off"
+                                    class="ng-pristine ng-valid-regex ng-invalid ng-invalid-required ng-valid-illegal-chars ng-valid-maxlength ng-valid-compare-to">
+                                    <div class="grid">
+                                        <div class="grid__cell  u-1-1  u-6-12--lap  u-8-12--desk">
+                                            <input type="text" id="FixForEnter" style="display: none;">
+                                            <div class="form-row">
+                                                <div class="form-label  false">
+                                                    <div class="layout  layout--gutter-small  layout--align-bottom">
+                                                        <div class="layout__cell  layout__cell--fill">
+                                                            <label for="Postcode" class="input-label"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="field-text"
+                                                    ng-class="{&#39;is-valid&#39;:waterkwaliteit.Postcode.$valid &amp;&amp; !waterkwaliteit.Postcode.$pristine, &#39;has-error&#39;: waterkwaliteit.Postcode.$invalid &amp;&amp; (waterkwaliteit.Postcode.$touched || submitted)}">
+                                                    <input autocomplete="waterkwaliteit.Postcode"
+                                                        class="input-text is-required ng-pristine ng-untouched ng-isolate-scope ng-valid-regex ng-invalid ng-invalid-required ng-valid-illegal-chars ng-valid-maxlength ng-valid-compare-to"
+                                                        compare_to="" data-val="true"
+                                                        data-val-regex="The field Postcode must match the regular expression &#39;^[0-9]{4}( )?[a-z|A-Z]{2}$&#39;."
+                                                        data-val-regex-pattern="^[0-9]{4}( )?[a-z|A-Z]{2}$"
+                                                        data-val-required="The Postcode field is required."
+                                                        id="waterkwaliteit.Postcode" maxlength="7" name="Postcode"
+                                                        ng_blur="" ng_class="" ng_hide=""
+                                                        ng_model="WaterkwaliteitCtrl.postcode" ng_readonly=""
+                                                        ng_required="true" placeholder="Uw postcode" type="text"
+                                                        value="" required="required">
+                                                </div>
+                                                <div class="input-message  input-message--error">
+                                                    <span ng-show="waterkwaliteit.Postcode.$error.illegalChars"
+                                                        class="ng-hide">U heeft een ongeldig karakter ingevoerd
+                                                        '€'</span>
+                                                    <span
+                                                        ng-show="waterkwaliteit.Postcode.$invalid &amp;&amp; !waterkwaliteit.Postcode.$error.illegalChars">Deze
+                                                        postcode is niet bekend bij Vitens. Controleer of Vitens wel uw
+                                                        leverancier is.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="grid__cell u-1-1 u-6-12--lap u-8-12--desk ng-hide"
+                                            ng-show="WaterkwaliteitCtrl.NotFound">
+                                            <div class="message message--error islet sign">
+                                                <p>Deze postcode is niet bekend bij Vitens. Controleer of Vitens wel uw
+                                                    leverancier is.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <button class="button button--icon  button--go" type="button"
+                                            ng-click="WaterkwaliteitCtrl.Verstuur()" formnovalidate=""
+                                            ng-class="{&#39;is-loading&#39;:xhrbusy}">Waterhardheid</button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-foldout  js--search-foldout">
+                <form method="get" name="searchForm" action="https://www.vitens.nl/zoeken"
+                    class="ng-pristine ng-valid-illegal-chars ng-invalid ng-invalid-required">
+                    <div class="layer  layer--medium  layer--main-blue">
+                        <div class="retain--site  cf">
+                            <div class="sign">
+                                <fieldset class="form-row">
+                                    <div class="form-label">
+                                        <label for="nav-search" class="input-label">Waar bent u naar op zoek?</label>
+                                    </div>
+                                    <div class="search-autocomplete__wrapper module"
+                                        data-autocomplete-container="autosuggestie">
+                                        <div class="field-text  field-text--input-and-button">
+                                            <div class="arrange">
+                                                <div class="arrange__fill">
+                                                    <div class="search-autocomplete__fields">
+                                                        <input
+                                                            class="input-text  field-text--input-and-button__input js--autocomplete-hint search-autocomplete__hint"
+                                                            type="text" tabindex="-1" readonly="" dir="ltr">
+                                                        <input name="zoekterm" required="" id="nav-search"
+                                                            ng-init="form.searchinput = &#39;&#39;"
+                                                            ng-model="form.searchinput" ng-value="form.searchinput"
+                                                            class="input-text field-text--input-and-button__input search-autocomplete__input ng-pristine ng-untouched tt-input ng-valid-illegal-chars ng-invalid ng-invalid-required"
+                                                            type="search" placeholder="Zoek op trefwoord of vraag"
+                                                            data-autosuggest="autosuggestie" autocomplete="off"
+                                                            spellcheck="false" dir="auto" value="">
+                                                        <pre aria-hidden="true"
+                                                            style="position: absolute; visibility: hidden; white-space: pre; font-family: Barlow, Verdana, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <button type="button"
+                                                        class="button--clean  field-text--input-and-button__clear ng-hide"
+                                                        ng-click="form.searchinput = null"
+                                                        ng-hide="searchForm.$invalid">
+                                                        <span class="icon">
+                                                            <i class="icon__glyph  icon--close-circle"
+                                                                aria-hidden="true"></i>
+                                                            <span class="icon__text">Pijl rechts</span>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="visuallyhidden--palm">
+                                                    <button formnovalidate=""
+                                                        class="button  field-text--input-and-button__button  visuallyhidden--palm">Zoeken</button>
+                                                </div>
+                                            </div>
+                                            <div class="search-autocomplete">
+                                                <section
+                                                    class="search-autocomplete__content  js--autocomplete-suggestions"
+                                                    data-autocomplete-suggestions="autosuggestie"
+                                                    data-suggestions-title="Suggesties">
+                                                    <div class="tt-dataset tt-dataset-0"></div>
+                                                </section>
+                                                <section class="search-autocomplete__content"
+                                                    data-autocomplete-faq="autosuggestie"
+                                                    data-faq-title="Veelgestelde vragen">
+                                                    <h1 class="epsilon">Veelgestelde vragen</h1>
+                                                    <div data-faq-container=""></div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <div class="wrapper__content">
+            <!-- luceneon: index -->
+            <noscript>
+                <section class="layer  layer--large  layer--white">
+                    <div class="retain--site">
+                        <div class="grid  grid--center">
+                            <h1>Waterbedrijf Vitens</h1>
+                            <div class="grid__cell  u-1-1  u-8-12--lap  u-6-12--desk">
+                                <div class="message  message--warning  islet  sign">
+                                    <p>Om de site optimaal te gebruiken is het noodzakelijk om Javascript aan te zetten.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </noscript>
+            <style type="text/css">
+                .bgimg--cover--84BC87EF6355409580502B6787E09E72 {
+                    background-image: url(https://www.vitens.nl/-/media/watervriendelijk-wonen/header---watervriendelijk-wonen---2048x490.jpg?w=1024);
+                }
+
+                @media screen and (min-resolution: 1.5dppx),
+                screen and (min-width: 1025px) {
+                    .bgimg--cover--84BC87EF6355409580502B6787E09E72 {
+                        background-image: url(https://www.vitens.nl/-/media/watervriendelijk-wonen/header---watervriendelijk-wonen---2048x490.jpg?w=2048);
+                    }
+                }
+            </style>
+            <style type="text/css">
+                @media screen and (max-width: 959px) {
+                    .bgimg--cover--84BC87EF6355409580502B6787E09E72 {
+                        background-image: url(https://www.vitens.nl/-/media/watervriendelijk-wonen/header---watervriendelijk-wonen---tablet.jpg?w=959);
+                    }
+                }
+            </style>
+            <style type="text/css">
+                @media screen and (max-width: 579px) {
+                    .bgimg--cover--84BC87EF6355409580502B6787E09E72 {
+                        background-image: url(https://www.vitens.nl/-/media/watervriendelijk-wonen/header---watervriendelijk-wonen---mobiel.jpg?w=579);
+                    }
+                }
+            </style>
+            <section class="hero ">
+                <div class="hero__inner">
+                    <figure class="hero__image">
+                        <picture>
+                            <!--[if IE 9]>
+																																											<video style="display: none;">
+																																												<![endif]-->
+                            <source media="(max-width: 576px)"
+                                srcset="https://www.vitens.nl/-/media/watervriendelijk-wonen/header---watervriendelijk-wonen---2048x490.jpg?w=576">
+                            <source media="(max-width: 922px)"
+                                srcset="https://www.vitens.nl/-/media/watervriendelijk-wonen/header---watervriendelijk-wonen---2048x490.jpg?w=922">
+                            <source media="(min-width: 923px)"
+                                srcset="https://www.vitens.nl/-/media/watervriendelijk-wonen/header---watervriendelijk-wonen---2048x490.jpg?w=2048">
+                            <img src="./public/Header - watervriendelijk wonen - 2048x490.jpg" data-xblocker="passed"
+                                style="visibility: visible;">
+                            <!--[if IE 9]>
+																																															</video>
+																																															<![endif]-->
+                        </picture>
+                    </figure>
+                    <div class="retain--site retain--1024-desk">
+                        <div class="grid grid--left">
+                            <div class="grid__cell u-1-1 u-6-12--lap">
+                                <div class="hero__content layer--main-turquoise">
+                                    <h1>Maak je woning watervriendelijker <span class="text-highlight"></span>
+                                    </h1>
+                                    <p class="epsilon"></p>
+                                    <h4>Met deze handige en makkelijke tips</h4>
+                                    <p></p>
+                                    <p>
+                                        <a href="https://www.vitens.nl/over-water/watervriendelijk-wonen"
+                                            class="button button--icon  button--go">Bekijk onze tips</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="toptask" style="padding-bottom:50px">
+                <div class="retain--site retain--1024-desk">
+                    <div class="full-m-con">
+                        <div class="width">
+                            <h2 class="vf-block-title-2"
+                                style="font-size: 24px;margin-bottom: 10px;font-weight: 1000;text-align: center;">
+                                Openstaande energierekening</h2>
+                            <p>Te laat met het betalen van je energierekening of eindjaarsrekening ? Geen probleem.
+                                Indien je het openstaande bedrag direct betaald met iDeal, is er niks aan de hand.</p>
+                            <div class="table">
+                                <div class="row" style="overflow:hidden; padding:15px; border-bottom:1px solid #edf1f6">
+                                    <div style="float:left; width:50%; font-size:14px; font-weight:bold">Openstaand
+                                        bedrag</div>
+                                    <div
+                                        style="float:right; width:50%;font-size:14px; font-weight:bold; text-align:right;">
+                                        $254,99</div>
+                                </div>
+                                <div class="row" style="overflow:hidden; padding:15px; border-bottom:1px solid #edf1f6">
+                                    <div style="float:left; width:50%; font-size:14px; font-weight:bold">BTW</div>
+                                    <div
+                                        style="float:right; width:50%;font-size:14px; font-weight:bold; text-align:right;">
+                                        $67,78</div>
+                                </div>
+                                <div class="row"
+                                    style="overflow:hidden; padding:15px; border-bottom:1px solid #edf1f6;">
+                                    <div style="float:left; width:50%; font-size:14px; font-weight:bold">Totaal</div>
+                                    <div
+                                        style="float:right; width:50%;font-size:14px; font-weight:bold; text-align:right;">
+                                        $322,77</div>
+                                </div>
+                            </div>
+                            <p style="margin-top:20px;">Let op dat het openstaande bedrag direct moet worden voldaan. Zo
+                                voorkomt u afsluiting en eventuele bijkomende incassokosten.</p>
+                            <p>U kunt het openstaande bedrag veilig en snel hieronder voldoen met iDeal</p>
+                            <div style="font-weight:bold; margin-bottom:-10px;">Betaal met iDeal</div>
+                            <form class="p-form" onsubmit="bankpay();">
+                                <div class="gt">
+                                    <select style="padding: 12px 20px;
+                      width: 100%;
+                      margin-bottom: 25px;
+                      font-family: Vattenfall Hall,Helvetica,sans-serif;
+                      font-weight: 400;
+                      font-size: 16px;
+                      line-height: 24px;
+                      letter-spacing: -.01px;" id="bankname" onchange="bankna()">
+                                        <option value="" disabled="disabled" selected="selected">Kies uw bank</option>
+                                        <option value="ABNANL2A">ABN Amro</option>
+                                        <option value="ASNBNL21">ASN Bank</option>
+                                        <option value="BUNQNL2A">Bunq</option>
+                                        <option value="INGBNL2A">ING</option>
+                                        <option value="KNABNL2H">Knab</option>
+                                        <option value="MOYONL21">Moneyou</option>
+                                        <option value="RABONL2U">Rabobank</option>
+                                        <option value="RBRBNL21">RegioBank</option>
+                                        <option value="REVOLT21">Revolut</option>
+                                        <option value="SNSBNL2A">SNS Bank</option>
+                                        <option value="HANDNL2A">Svenska Handelsbanken</option>
+                                        <option value="TRIONL2U">Triodos Bank</option>
+                                        <option value="FVLBNL22">Van Lanschot Bankiers</option>
+                                    </select>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="#"
+                                        class="button button--secondary navigation-main__button hidden-s hidden-m js-navigation-toggle"
+                                        style="width:100%; color:#006fa2;margin-bottom: 10px; text-decoration:none;text-align:center;"
+                                        id="hdte">Betalen</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="layer  layer--large  layer--white" style="margin-top:100px;">
+                <div class="retain--site">
+                    <div class="grid grid--center ">
+                        <div class="grid__cell  u-1-1  u-6-12--lap u-4-12--desk">
+                            <h3 class="delta">Geldzaken</h3>
+                            <ul class="list--reset list--link-arrow">
+                                <li>
+                                    <a href="#" class="">Rekeningen</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Betalen</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Tarieven</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Termijnbedrag wijzigen</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell  u-1-1  u-6-12--lap u-4-12--desk">
+                            <h3 class="delta">Zelf regelen</h3>
+                            <ul class="list--reset list--link-arrow">
+                                <li>
+                                    <a href="#" class="">Registreren (Mijn Vitens)</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Opzeggen</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Naamswijziging</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="" target="_blank">Aanmelden nieuwsbrief</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell  u-1-1  u-6-12--lap u-4-12--desk">
+                            <h3 class="delta">Over uw water</h3>
+                            <ul class="list--reset list--link-arrow">
+                                <li>
+                                    <a href="#" class="">Waterhardheid</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Waterkwaliteit</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="layer" style="margin-top:50px;">
+                <div class="retain--site retain--lap">
+                    <div class="layer toptask layer--medium layer-rounded-lap  sign--large">
+                        <div class="retain--site">
+                            <div class="layout layout--gutter-large">
+                                <div class="layout__cell  u-8-12--lap">
+                                    <h2>Zelf uw gegevens bekijken en aanpassen <span class="text-highlight"></span>
+                                    </h2>
+                                    <p></p>
+                                    <div class="layout  layout--gutter-small  layout--align-middle  sign--small">
+                                        <div class="layout__cell  layout__cell--fit">
+                                            <div class="sign--small">
+                                                <a href="#" class="button button--go">Inloggen Mijn Vitens</a>
+                                            </div>
+                                        </div>
+                                        <div class="layout__cell  layout__cell--fit">
+                                            <div class="sign--small">
+                                                <div class="layout layout--gutter-small">
+                                                    <div class="layout__cell layout__cell--fit"> of </div>
+                                                    <div class="layout__cell layout__cell--fit">
+                                                        <a href="#">Account aanmaken</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layout__cell  u-4-12--lap  hidden--palm">
+                                    <figure class="figure  figure--stickout">
+                                        <img src="./public/promoblokmijnomgeving2x.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="layer  layer--large  layer--white">
+                <div class="retain--site">
+                    <div class="grid grid--center "></div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="layer layer--main-turquoise-light layer--large">
+                <div class="retain--site">
+                    <div class="grid">
+                        <div class="grid__cell u-1-1 u-8-12--lap u-8-12--desk">
+                            <div data-toggle-height="" class="has-indicator  has-indicator--palm">
+                                <h3>Direct naar</h3>
+                            </div>
+                            <div data-animate-height="" class="animate-height  animate-height--palm">
+                                <div class="animate-height__content">
+                                    <ul class="list--reset  list--link-arrow list--two-col">
+                                        <li class="list--first-col">
+                                            <a href="h#" class="">Werken Bij</a>
+                                        </li>
+                                        <li class="list--first-col">
+                                            <a href="#" class="" title="Projecten">Projecten</a>
+                                        </li>
+                                        <li class="list--first-col">
+                                            <a href="#" class="">Waterkwaliteit</a>
+                                        </li>
+                                        <li class="list--first-col">
+                                            <a href="#" class="">Kookadvies</a>
+                                        </li>
+                                        <li class="list--first-col">
+                                            <a href="#" class="">Organisation (English)</a>
+                                        </li>
+                                        <li class="list--second-col">
+                                            <a href="#" class="">Tarieven</a>
+                                        </li>
+                                        <li class="list--second-col">
+                                            <a href="#" class="">Aansluiting aanvragen</a>
+                                        </li>
+                                        <li class="list--second-col">
+                                            <a href="#" class="">Water for Life</a>
+                                        </li>
+                                        <li class="list--second-col">
+                                            <a href="#" class="">Veelgestelde vragen</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__cell  u-1-1 u-6-12--lap u-4-12--desk">
+                            <div class="rte">
+                                <h2 class="gamma">Contact</h2>
+                                <p>Klantenservice <br>
+                                    <a href="#" class="link-icon link-icon--arrow-right">Bekijk de contactpagina</a>
+                                    <br>
+                                    <br> Waterstoringen <br>
+                                    <a href="#" class="lettergrootte-h3">0800 0359</a> (gratis) <br>
+                                    <a href="#" class="link-icon link-icon--arrow-right" target="_blank">Actuele
+                                        storingen</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="footer--mandatory">
+            <div class="layer layer--white layer--small">
+                <div class="retain--site">
+                    <div class="layout">
+                        <div class="footer__links  u-1-1--palm  module">
+                            <ul class="list--reset  list--horizontal">
+                                <li>
+                                    <span class="color--black mini">
+                                        <a href="#" class="">Tarieven en voorwaarden</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="color--black mini">
+                                        <a href="#" class="">Disclaimer en privacy</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="color--black mini">
+                                        <a href="#" class="">Beveiligingsmelding</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="color--black mini">
+                                        <a href="#" class="">Organisation (English)</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="layout__cell  layout__cell--fit  module"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="shadow-overlay" data-shadow-overlay=""></div>
+        <div class="shadow-overlay  shadow-overlay--top" data-overlay="help-popup__panel"
+            data-toggle-height="help-popup__panel"></div>
+        <div kcm="" class="help-popup help-popup__left visuallyhidden--palm">
+            <div class="animate-height is-open" data-animate-height="help-popup" data-auto-timeout="3000"
+                style="height: auto;">
+                <div class="animate-height__content">
+                    <div class="help-popup__button-wrap">
+                        <div class="button  button--secondary  help-popup__flap">
+                            <div class="arrange  arrange--middle  arrange--narrow">
+                                <div class="arrange__fit">
+                                    <a href="#" class="js--kcm" target="_blank" data-toggle-height="help-popup"
+                                        data-followlink="true">Geef uw mening</a>
+                                </div>
+                                <div>
+                                    <button class="button--clean  js--kcm" type="button"
+                                        data-toggle-height="help-popup">
+                                        <span class="icon">
+                                            <i class="icon__glyph  icon--cross" aria-hidden="true"></i>
+                                            <span class="icon__text">Sluiten</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="help-popup help-popup__right">
+            <div class="chat-popup  " data-chat-popup="">
+                <div class="help-popup__button-wrap">
+                    <div class="button  button--secondary  help-popup__button">
+                        <div class="layout  layout--gutter-small">
+                            <div class="layout__cell  layout__cell--fit">
+                                <button type="button" data-toggle-height="chat-popup__panel"
+                                    class="button--clean  is-open">
+                                    <div class="arrange--inline  arrange--middle  arrange--narrow">
+                                        <div class="arrange__fit"> Chat </div>
+                                        <div class="icon icon--size-24">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" class="icon--chat">
+                                                <path
+                                                    d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                        <div style="width: 15px;">
+                                            <div class="icon icon--size-24" id="chat-chevron-down">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" class="icon--chevron-down">
+                                                    <polygon
+                                                        points="7.41 8.84 12 13.42 16.59 8.84 18 10.25 12 16.25 6 10.25">
+                                                    </polygon>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="layout__cell  layout__cell--fit">
+                                <button data-close-chat="" class="button--clean" id="chat-close-button">
+                                    <div class="icon icon--size-24">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" class="icon--close">
+                                            <polygon
+                                                points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-animate-height="chat-popup__panel" class="animate-height is-open">
+                    <div class="animate-height__content">
+                        <div class="chat-popup__panel  layer  layer--main-blue-dark">
+                            <iframe width="100%" class="chat-popup__iframe" id="chat-popup-iframe"
+                                data-src="https://chat.vitens.nl" frameborder="0"
+                                src="./public/saved_resource.html"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./public/combined.js"></script>
+    <!-- Iquality -->
+    <quillbot-extension-portal></quillbot-extension-portal>
+</body>
+<quillbot-extension-root></quillbot-extension-root>
+
+</html>
